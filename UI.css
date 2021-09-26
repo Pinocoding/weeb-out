@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.plant-details {
+  width: 80rem;
+  min-height: 60rem;
+  background-image: linear-gradient(to bottom left, #59855c, #b6d4aa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.plant-details__container {
+  background-color: #fff;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+.plant-details__header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.plant-details__back {
+  color: #999;
+  text-transform: uppercase;
+}
+.plant-details__back {
+  text-decoration: none;
+}
+.plant-details__back span {
+  margin-left: 1.5rem;
+}
+.plant-details__like {
+  color: #26782b;
+  font-size: 2rem;
+}
+.plant-details__content {
+  display: flex;
+}
+.plant-details__content > div {
+  padding: 2rem;
+}
+.plant-details__image {
+  width: 40%;
+  /* display: block;
+  margin: 0 auto; */
+}
+.image {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+}
+.plant-details__info {
+  width: 60%;
+  border-left: 1px solid #eee;
+}
+.plant-details__tittle {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 0.5rem;
+  background-image: linear-gradient(to bottom left, #22651c, #b6d4aa);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: bold;
+}
+.plant-details__category {
+  font-size: 1rem;
+  display: block;
+  /* color: black; */
+  margin-bottom: 2rem;
+}
+.plant-details__price {
+  font-size: 2rem;
+  /* text-transform: uppercase; */
+  color: black;
+  display: block;
+  margin-bottom: 2rem;
+}
+.plant-details__desc {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #999;
+  margin-bottom: 2rem;
+}
+.plant-details__button {
+  outline: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  padding: 1rem 3rem;
+  min-width: 15rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom left, #22651c, #b6d4aa);
+}
+.plant-details__button:first-of-type {
+  margin-right: 1rem;
+}
